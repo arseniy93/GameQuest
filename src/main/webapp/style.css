@@ -1,0 +1,25 @@
+input:required:invalid ~ button.flexRadioDefault {
+  opacity: .65;
+  pointer-events: none;
+}
+a:visited {
+  color: rgba(161, 169, 184, 0.56);
+  text-decoration: none!important;
+}
+
+/* mouse over link */
+a:hover {
+  color: #539497;
+  text-decoration: none!important;
+}
+
+a:link {
+  color: #000000;
+  text-decoration: none!important;
+}
+
+/* selected link */
+a:active {
+  color: #000000;
+  text-decoration: none!important;
+}
